@@ -20,10 +20,11 @@ You'll also learn how to:
 
 ## Add-ons
 I have adapted the tutorial to include a .env file for my details using [emailjs](https://www.emailjs.com/), which you will need to create in your root directory, mine is laid out like the following:
-VITE_APP_EMAILJS_SERVICE_ID=(Enter your Service ID here)
-VITE_APP_EMAILJS_TEMPLATE_ID=(Enter your Template ID here)
-VITE_APP_EMAILJS_PUBLIC_KEY=(Enter your public key here)
-MY_EMAIL=(Enter your email address ) I found using Gmail was the easiest way to get this setup via [emailjs](https://www.emailjs.com/)
+
+* VITE_APP_EMAILJS_SERVICE_ID=(Enter your Service ID here)
+* VITE_APP_EMAILJS_TEMPLATE_ID=(Enter your Template ID here)
+* VITE_APP_EMAILJS_PUBLIC_KEY=(Enter your public key here)
+* MY_EMAIL=(Enter your email address ) I found using Gmail was the easiest way to get this setup via [emailjs](https://www.emailjs.com/)
 
 ## License
 A few callouts for the 3d imagery:
