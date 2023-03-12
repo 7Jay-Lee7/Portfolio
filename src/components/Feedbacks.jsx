@@ -1,3 +1,4 @@
+/* Taking out until I have Testimonials of my own
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -63,4 +64,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "");*/
