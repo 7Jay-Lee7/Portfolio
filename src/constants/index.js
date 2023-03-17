@@ -242,7 +242,7 @@ import {
       source_code_link: "https://github.com/7Jay-Lee7/Adopt-a-Pet-Starter",
     },
     {
-      name: "Dashboard",
+      name: "MERN Dashboard",
       description:
         "Web-based React Dashboard using Material UI and Nivo for the charts has the data analysis and visualization. By combining the flexibility and power of React with the visually stunning designs of Material UI and Nivo, users are presented with an intuitive and customizable dashboard that can provide valuable insights into their data.",
       tags: [
@@ -251,7 +251,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
@@ -260,7 +260,7 @@ import {
         },
       ],
       image: dashboard,
-      source_code_link: "https://github.com/7Jay-Lee7/React-Dashboard",
+      source_code_link: "https://github.com/7Jay-Lee7/MERN-Dashboard",
     },
   ];
   
