@@ -20,7 +20,7 @@ import {
     bq,
     dashboard,
     servicehub,
-    petlover,
+    Ai3dDesigner,
     threejs,
     rohan,
   } from "../assets";
@@ -221,16 +221,16 @@ import {
       source_code_link: "https://github.com/7Jay-Lee7",
     },
     {
-      name: "Adopt a Pet Starter",
+      name: "3D AI Shirt Designer",
       description:
-        "My first React web application that allows users to search for dogs, cats, rabbits, and birds that are up for adoption or missing. The app features tabs for each type of pet, making it easy to find the perfect pet to adopt or help locate a missing pet.",
+        "This is a web application that allows users to customise shirts using a 3D AI model. The application is built using Vite, React, ThreeJS, Express, Tailwind, and Valtio.",
       tags: [
         {
-          name: "React",
+          name: "Open AI",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
@@ -238,13 +238,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: petlover,
-      source_code_link: "https://github.com/7Jay-Lee7/Adopt-a-Pet-Starter",
+      image: Ai3dDesigner,
+      source_code_link: "https://github.com/7Jay-Lee7/Jays-3D-Ai-Shirt-Designer",
     },
     {
       name: "MERN Dashboard",
       description:
-        "Web-based React Dashboard using Material UI and Nivo for the charts has the data analysis and visualization. By combining the flexibility and power of React with the visually stunning designs of Material UI and Nivo, users are presented with an intuitive and customizable dashboard that can provide valuable insights into their data.",
+        "This is a web application built with the MERN (MongoDB, Express, React, Node.js) stack. It is an admin dashboard that allows users to view and manage data in a MongoDB database.",
       tags: [
         {
           name: "React",
