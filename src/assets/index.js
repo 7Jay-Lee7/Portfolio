@@ -28,7 +28,7 @@ import rohan from "./company/rohan.png";
 
 import dashboard from "./dashboard.png";
 import servicehub from "./servicehub.png";
-import petlover from "./petlover.png";
+import Ai3dDesigner from "./Ai3dDesigner.png";
 
 export {
   logo,
@@ -55,7 +55,7 @@ export {
   greene_king,
   homebase,
   dashboard,
-  petlover,
+  Ai3dDesigner,
   servicehub,
   react,
   rohan,
