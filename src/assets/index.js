@@ -27,7 +27,7 @@ import homebase from "./company/homebase.png";
 import rohan from "./company/rohan.png";
 
 import dashboard from "./dashboard.png";
-import servicehub from "./servicehub.png";
+import CodeConnect from "./CodeConnect.png";
 import Ai3dDesigner from "./Ai3dDesigner.png";
 
 export {
@@ -56,7 +56,7 @@ export {
   homebase,
   dashboard,
   Ai3dDesigner,
-  servicehub,
+  CodeConnect,
   react,
   rohan,
 };
