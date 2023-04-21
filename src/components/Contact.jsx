@@ -89,7 +89,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -100,7 +100,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -111,13 +111,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='Please enter your message here...'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-white'
           >
             {loading ? "Sending..." : "Send"}
           </button>
