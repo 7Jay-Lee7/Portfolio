@@ -1,5 +1,5 @@
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio]()
+![3D Portfolio](Portfolio-Img.png)
 
 ## Introduction
 The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
@@ -55,8 +55,8 @@ A few callouts for the 3d imagery:
 ## And
 
 Model Information:
-* title:	Stylized planet
-* source:	https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70
-* author:	cmzw (https://sketchfab.com/cmzw)
+* title: Earth with Mountains & Atmosphere
+* source:	[https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70](https://sketchfab.com/3d-models/earth-with-mountains-and-atmosphere-97ecc0ebec5d41088811e993bc764a81)
+* author:	CHRIS .capycoil (https://sketchfab.com/capycoil)
 
 Happy coding 😊
