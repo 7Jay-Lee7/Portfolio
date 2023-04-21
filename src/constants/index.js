@@ -35,6 +35,10 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -148,7 +152,7 @@ import {
       iconBg: "#383E56",
       date: "Oct 2020 - May 2021",
       points: [
-        "Maintain accurate and up-to-date records, including inventory management, sales data and the CRM.",
+        "Maintained accurate and up-to-date records, including inventory management, sales data and the CRM.",
         "Strong leadership, customer service, and organizational skills are essential for success in this role.",
         "As a team leader, I manage and support frontend staff, setting goals, providing guidance, and conducting performance evaluations to promote a positive work environment and achieve objectives.",
         "Process transactions and handle cash and credit card payments accurately and efficiently.",
@@ -162,42 +166,14 @@ import {
       date: "May 2021 - Present",
       points: [
         "As part of my role, I developed and maintained a Customer Service Hub that proved highly beneficial in increasing productivity and streamlining our processes. By collating all relevant resources in one place, the Hub enabled our team to provide more efficient and effective customer support, leading to greater customer satisfaction and retention..",
-        "With advanced Excel skills, I have extensive experience creating and updating monthly charts, reports, and spreadsheets for customer service. Proficiency in Excel's functions and features has streamlined tasks, resulting in clear and organised reports and charts that are easy to interpret.",
+        "With advanced Excel skills, I have extensive experience creating and updating monthly charts, reports, and spreadsheets for customer services. Proficiency in Excel's functions and features has streamlined tasks, resulting in clear and organised reports and charts that are easy to interpret.",
         "As a manager, I prioritise efficient task completion and provide team support when needed. By fostering collaboration and efficiency, we achieve our goals effectively.",
-        "Demonstrated expertise of effectively resolving customer complaints, ensuring that the company's guarantee is upheld.",
+        "Demonstrated expertise of effectively resolving customer complaints, ensuring that the company's guarantee is upheld. I also take the time to educate customers when no fault is found, helping to improve their understanding of our products and services.",
         "I have a strong focus on customer experience and regularly gather data on our competitors to provide our customers with a simple and informed online experience. Additionally, I have contributed to updating our FAQs page to ensure our customers have access to all necessary information. By staying informed about our competitors and improving our online resources, I am dedicated to creating a seamless customer experience.",
       ],
     },
   ];
   
-  /* Can add testimonials once I start receiving them.
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];*/
-
   const projects = [
     {
       name: "CodeConnect",
@@ -264,4 +240,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, /*testimonials,*/ projects };
+  export { services, technologies, experiences, projects };
