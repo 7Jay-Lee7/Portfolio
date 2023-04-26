@@ -85,15 +85,17 @@ import {
   
   const experiences = [
     {
-      title: "Kitchen Manager",
-      company_name: "Greene King (The Cock Hotel)",
-      icon: greene_king,
-      iconBg: "#383E56",
-      date: "Jan 2016 - March 2017",
+      title: "Team Leader",
+      company_name: "Rohan",
+      icon: rohan,
+      iconBg: "#E6DEDD",
+      date: "May 2021 - Present",
       points: [
-        "Demonstrated expertise in inventory management, overseeing all aspects of kitchen inventory to ensure a steady supply of ingredients and supplies, tracking expenses, and ordering new items as needed.",
-        "Proven ability to supervise and manage kitchen staff, training new employees, scheduling shifts, and ensuring that staff adhere to safety and sanitation guidelines.",
-        "Skilled in menu planning and recipe development, staying up to date on food trends, and creating new dishes to keep customers engaged and satisfied.",
+        "As part of my role, I developed and maintained a Customer Service Hub that proved highly beneficial in increasing productivity and streamlining our processes. By collating all relevant resources in one place, the Hub enabled our team to provide more efficient and effective customer support, leading to greater customer satisfaction and retention..",
+        "With advanced Excel skills, I have extensive experience creating and updating monthly charts, reports, and spreadsheets for customer services. Proficiency in Excel's functions and features has streamlined tasks, resulting in clear and organised reports and charts that are easy to interpret.",
+        "As a manager, I prioritise efficient task completion and provide team support when needed. By fostering collaboration and efficiency, we achieve our goals effectively.",
+        "Demonstrated expertise of effectively resolving customer complaints, ensuring that the company's guarantee is upheld. I also take the time to educate customers when no fault is found, helping to improve their understanding of our products and services.",
+        "I have a strong focus on customer experience and regularly gather data on our competitors to provide our customers with a simple and informed online experience. Additionally, I have contributed to updating our FAQs page to ensure our customers have access to all necessary information. By staying informed about our competitors and improving our online resources, I am dedicated to creating a seamless customer experience.",
       ],
     },
     {
@@ -124,17 +126,15 @@ import {
       ],
     },
     {
-      title: "Team Leader",
-      company_name: "Rohan",
-      icon: rohan,
-      iconBg: "#E6DEDD",
-      date: "May 2021 - Present",
+      title: "Kitchen Manager",
+      company_name: "Greene King (The Cock Hotel)",
+      icon: greene_king,
+      iconBg: "#383E56",
+      date: "Jan 2016 - March 2017",
       points: [
-        "As part of my role, I developed and maintained a Customer Service Hub that proved highly beneficial in increasing productivity and streamlining our processes. By collating all relevant resources in one place, the Hub enabled our team to provide more efficient and effective customer support, leading to greater customer satisfaction and retention..",
-        "With advanced Excel skills, I have extensive experience creating and updating monthly charts, reports, and spreadsheets for customer services. Proficiency in Excel's functions and features has streamlined tasks, resulting in clear and organised reports and charts that are easy to interpret.",
-        "As a manager, I prioritise efficient task completion and provide team support when needed. By fostering collaboration and efficiency, we achieve our goals effectively.",
-        "Demonstrated expertise of effectively resolving customer complaints, ensuring that the company's guarantee is upheld. I also take the time to educate customers when no fault is found, helping to improve their understanding of our products and services.",
-        "I have a strong focus on customer experience and regularly gather data on our competitors to provide our customers with a simple and informed online experience. Additionally, I have contributed to updating our FAQs page to ensure our customers have access to all necessary information. By staying informed about our competitors and improving our online resources, I am dedicated to creating a seamless customer experience.",
+        "Demonstrated expertise in inventory management, overseeing all aspects of kitchen inventory to ensure a steady supply of ingredients and supplies, tracking expenses, and ordering new items as needed.",
+        "Proven ability to supervise and manage kitchen staff, training new employees, scheduling shifts, and ensuring that staff adhere to safety and sanitation guidelines.",
+        "Skilled in menu planning and recipe development, staying up to date on food trends, and creating new dishes to keep customers engaged and satisfied.",
       ],
     },
   ];
