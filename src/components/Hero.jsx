@@ -1,7 +1,21 @@
+import { useState } from "react";
 import { styles } from "../styles";
 import "../index.css";
 
 const Hero = () => {
+  const [imageSrc, setImageSrc] = useState("/Me3D2.png");
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsHovering(true);
+    setImageSrc("/Me3D.png");
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+    setImageSrc("/Me3D2.png");
+  };
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -24,12 +38,23 @@ const Hero = () => {
               deliver exceptional user experiences through every
               project I undertake.
             </p>
-           </div>
-             <div className="relative hero-img">
-               <img src="/Me3D2.png" alt="Jay Lee" />
-             </div>
-           </div>
+          </div>
+          <div
+            className="relative hero-img"
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+          >
+            <img
+              src={imageSrc}
+              alt="Jay Lee"
+              style={{
+                transition: "all 0.5s ease-in-out",
+                transform: isHovering ? "scale(1.1)" : "scale(1)",
+              }}
+            />
+          </div>
         </div>
+      </div>
     </section>
   );
 };
