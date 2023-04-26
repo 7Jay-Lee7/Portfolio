@@ -16,6 +16,16 @@ const Hero = () => {
     setImageSrc("/Me3D2.png");
   };
 
+  const handleTouchStart = () => {
+    setIsHovering(true);
+    setImageSrc("/Me3D.png");
+  };
+
+  const handleTouchEnd = () => {
+    setIsHovering(false);
+    setImageSrc("/Me3D2.png");
+  };
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -43,6 +53,8 @@ const Hero = () => {
             className="relative hero-img"
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
           >
             <img
               src={imageSrc}
