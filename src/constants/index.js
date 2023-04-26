@@ -5,14 +5,9 @@ import {
     web,
     javascript,
     html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
-    git,
-    sql,
     greene_king,
     homebase,
     bq,
@@ -67,20 +62,12 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -91,20 +78,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "sql",
-      icon: sql, 
     },
   ];
   
