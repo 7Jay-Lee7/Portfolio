@@ -4,7 +4,6 @@ import {
     content,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,7 +12,6 @@ import {
     nodejs,
     mongodb,
     git,
-    java,
     sql,
     greene_king,
     homebase,
@@ -77,10 +75,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -107,10 +101,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "java",
-      icon: java, 
     },
     {
       name: "sql",
