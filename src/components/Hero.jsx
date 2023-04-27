@@ -61,7 +61,7 @@ const Hero = () => {
               alt="Jay Lee"
               style={{
                 transition: "all 0.5s ease-in-out",
-                transform: isHovering ? "scale(1.1)" : "scale(1)",
+                transform: isHovering ? "scale(1.5)" : "scale(1.3)",
               }}
             />
           </div>
