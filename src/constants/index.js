@@ -180,7 +180,7 @@ import {
         },
       ],
       image: Ai3dDesigner,
-      source_code_link: "https://github.com/7Jay-Lee7/Jays-3D-Ai-Shirt-Designer",
+      source_code_link: "https://3d-designer.netlify.app/",
     },
     {
       name: "MERN Dashboard",
