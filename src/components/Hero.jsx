@@ -3,27 +3,27 @@ import { styles } from "../styles";
 import "../index.css";
 
 const Hero = () => {
-  const [imageSrc, setImageSrc] = useState("/AnimatedMe.png");
+  const [imageSrc, setImageSrc] = useState("/Me.png");
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
     setIsHovering(true);
-    setImageSrc("/Me.png");
+    setImageSrc("/AnimatedMe.png");
   };
 
   const handleMouseOut = () => {
     setIsHovering(false);
-    setImageSrc("/AnimatedMe.png");
+    setImageSrc("/Me.png");
   };
 
   const handleTouchStart = () => {
     setIsHovering(true);
-    setImageSrc("/AnimatedMe.png");
+    setImageSrc("/Me.png");
   };
 
   const handleTouchEnd = () => {
     setIsHovering(false);
-    setImageSrc("/Me.png");
+    setImageSrc("/AnimatedMe.png");
   };
 
   return (
