@@ -9,8 +9,8 @@ import backend from "./backend.png";
 import content from "./content.png";
 import web from "./web.png";
 import github from "./github.png";
-import menu from "./menu.png";
-import close from "./close.png";
+import menu from "./Menu.png";
+import close from "./Close.png";
 import react from "./react.png";
 
 import html from "./tech/html.png";
