@@ -8,7 +8,7 @@ const Hero = () => {
 
   const handleMouseOver = () => {
     setIsHovering(true);
-    setImageSrc("/AnimatedMe.png");
+    setImageSrc("/PaintedMe.png");
   };
 
   const handleMouseOut = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
 
   const handleTouchEnd = () => {
     setIsHovering(false);
-    setImageSrc("/AnimatedMe.png");
+    setImageSrc("/PaintedMe.png");
   };
 
   return (
